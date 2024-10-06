@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: black;
+    box-sizing: border-box;
+}
+
+.biju h1{
+    color: white;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+.biju{
+    padding-top: 100px;
+    background-color: aqua;
+}
+
+.image img{
+    margin-top: 20px;
+    width: 25rem;
+    display: flex;
+    margin-left: 35rem;
+    border-radius: 100px;
+    border: 10px solid aqua ;
+}
+
+.image button{
+    padding: 15px 100px;
+    color: black;
+    background-color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 40rem;
+}
+
+.image button:hover{
+    text-decoration: underline;
+    background-color: white;
+}
